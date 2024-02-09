@@ -12,6 +12,9 @@
 </head>
 
 <body style="margin: 0; overflow: hidden;">
+  <div class="centered"">
+    <div class="title">2024.03.16 Wedding</div>
+  </div>
   <a-scene vr-mode-ui="enabled: false;" loading-screen="enabled: false;" renderer="logarithmicDepthBuffer: true;"
     arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;" id="scene" embedded gesture-detector>
     <a-assets>
@@ -24,10 +27,29 @@
         animation-mixer="loop: repeat" gltf-model="#animated-asset" class="clickable" gesture-handler></a-entity>
     </a-marker>
 
-    <a-text position="-1 0.9 -3" value="Wedding 2024.03.16" color="Red"></a-text>
-
     <a-entity camera></a-entity>
   </a-scene>
 </body>
+
+<style>
+.centered {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  position: fixed;
+  top: 5%;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 1.25em;
+  color: #eeeeee;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999999;
+}
+</style>
 
 </html>
