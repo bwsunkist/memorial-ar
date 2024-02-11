@@ -1,0 +1,64 @@
+body {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+}
+
+.text2 {
+  font-size: clamp(20px, 7vw, 60px);
+  font-family: "Outfit", sans-serif;
+}
+
+.others {
+  width: 90%;
+  margin-left: 10%;
+  margin-top: -15vh;
+}
+
+.others p {
+  color: #ffffff;
+  font-size: clamp(14px, 5vw, 48px);
+  font-family: "Outfit", sans-serif;
+}
+
+.others2 {
+  width: 90%;
+  margin-left: 10%;
+  color: #ffffff;
+  font-size: clamp(14px, 5vw, 48px);
+  font-family: "Outfit", sans-serif;
+}
+
+.ptitle {
+  font-size: clamp(20px, 7vw, 60px);
+  margin-bottom: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.detail {
+  font-size: clamp(12px, 4vw, 40px);
+  margin-top: -5vh;
+  margin-bottom: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.container2 {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  min-height: 980px;
+  margin: 0;
+}
+
+.button-container {
+  width : 100% ;
+  height : 500px ;
+  display : flex ;
+  flex-direction : column ;
+  justify-content : center ;
+  align-items : center ;
+  position : relative ;
+  margin-bottom: 200px;
+}
