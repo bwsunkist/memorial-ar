@@ -12,8 +12,8 @@ body {
 }
 
 .others {
-  width: 90%;
-  margin-left: 10%;
+  width: 90vw;
+  margin-left: 10vw;
   margin-top: -15vh;
 }
 
@@ -60,5 +60,8 @@ body {
   justify-content : center ;
   align-items : center ;
   position : relative ;
+
   margin-bottom: 200px;
+  margin-left: 5vw;
+  max-height: 500px;
 }
