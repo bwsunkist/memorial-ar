@@ -9,6 +9,7 @@ URL：https://codepen.io/ash_creator/pen/wvOeJQY
   justify-content: center;
   align-items: center;
   width: 100vw;
+  max-width: 800px;
   height: 50vh;
   margin: 0;
 }
@@ -20,7 +21,7 @@ URL：https://codepen.io/ash_creator/pen/wvOeJQY
 }
 /* 任意の文字設定 */
 .text {
-  font-size: clamp(20px, 9vw, 80px); /* 文字サイズ */
+  font-size: clamp(20px, 8vw, 60px); /* 文字サイズ */
   letter-spacing: 0.2em; /* 文字間隔（通常より少し広くするのがおすすめ） */
   font-family: "Outfit", sans-serif;
 }
@@ -36,7 +37,7 @@ atw-glitch base style
   position: relative;
   color: transparent;
   overflow: hidden;
-  left: 10%;
+  left: 8%;
 }
 .atw-glitch__mainText--1,
 .atw-glitch__mainText--2,
