@@ -27,7 +27,7 @@ body {
 .others2 {
   width: 80vw;
   margin-left: 10vw;
-  margin-top: -10vh;
+  margin-top: -100px;
   margin-bottom: 5vh;
   color: #ffffff;
   font-size: clamp(14px, 5vw, 48px);
@@ -50,8 +50,7 @@ body {
 .container2 {
   display: flex;
   width: 100vw;
-  height: 10vh;
-  min-height: 220px;
+  height: 220px;
   margin: 0;
 }
 
